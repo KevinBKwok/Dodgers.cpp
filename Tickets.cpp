@@ -15,6 +15,6 @@ int main() {
 
     double subtotal = (FRONT_ROW_PRICE * frontRowTickets) + (REGULAR_PRICE * regularTickets);
 
-    double tax = subtotal * TAX_RATE;
-    
+    double tax = subtotal * TAX_RATE; 
+
 }
