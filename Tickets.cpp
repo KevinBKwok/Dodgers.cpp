@@ -8,5 +8,7 @@ int main() {
     double TAX_RATE = .0725;//7.25 tax
 
     int frontRowTickets, regularTickets;
-    
+    cout << "How many front row tickets would you like? ($110 each): ";
+    cin >> frontRowTickets;
+    cout << "How many regular tickets would you like? ($75 each): ";
 }
