@@ -11,4 +11,10 @@ int main() {
     cout << "How many front row tickets would you like? ($110 each): ";
     cin >> frontRowTickets;
     cout << "How many regular tickets would you like? ($75 each): ";
+    cin << regularTickets;
+
+    double subtotal = (FRONT_ROW_PRICE * frontRowTickets) + (REGULAR_PRICE * regularTickets);
+
+    double tax = subtotal * TAX_RATE;
+    
 }
